@@ -134,3 +134,15 @@ saves:
 Setting the `disabled` option to true in the saves config will remove the continue/load button, and remove the warning about erasing save slots when clicking on new game.
 
 The game will still be saving in the background, but the player won't be able to load the save.
+
+::: tip
+
+ The best practice would be to instance the option directly, instead of commenting the default options.
+ 
+ Possible outcomes when commenting an option that's missing would be...
+
+   -Returning default config
+   
+   -Potential error messages
+
+:::
